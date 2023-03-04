@@ -50,7 +50,7 @@
 ## Bugs
 - <s>Encryption is broken and it will soft brick the device.</s> Hasn't been tested on the OnePlus 3
 - After entering a pin code to unlock your SIM card, you need to restart the Settings application to get access to the settings because the menu doesn't update automatically.
-- Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names. See from https://apn.how
+- Mobile data needs an APN to be set up from Settings -> Mobile Network -> Acess Point Names. See from https://apn.how
 - If you get an empty Access Points window even after you have entered the info, ofono is not working properly. Run `sudo systemctl restart ofono.service` to solve the issue.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
