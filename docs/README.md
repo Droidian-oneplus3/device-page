@@ -2,7 +2,7 @@
 
 |                               	|    	 |                                  	|    	 |                      	|   	 |
 |-------------------------------	|----- |----------------------------------	|----- |----------------------	|----- |
-| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	 |  ❔  | Automatic brightness   | ✅✖️ |
+| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	 |  ✅  | Automatic brightness   | ✅✖️ |
 | No reboot needed for 1 week    	|  ✅	| Fingerprint reader  	             | ✖️✖️ | Waydroid		           |  ✅  |
 | Torchlight                    	|  ✅	| Boot into UI                     	 |  ✅  | GPS                 	  | ✖️✖️ |
 | Vibration                     	|  ✅ 	| Hardware video playback          	 |  ❔  | Proximity          	  |  ✅ 	|
@@ -17,7 +17,7 @@
 | MMS in, out                   	|  ❔ 	| Wireless External monitor        	 | ✖️✖️	| MTP access           	 | ✖️✖️ |
 | SMS in, out                    	|  ✅ 	| Bluetooth                        	 |  ✅  | WiFi			              |  ✅	|
 | Change audio routings          	|  ✅	| Flight mode                      	 | ✅✖️ | Hotspot		            |  ✅	|
-| Voice in calls                	|  ✅ 	|
+| Voice in calls                	|  ✅ 	| Tristate switch                    |  ✅  | Capacitive buttons     |  ✅  |
 
 - **✅** *Confirmed working.*
 - **✅✖️** *Working to some extent but with issues.*
@@ -31,15 +31,15 @@
   - After you have installed the custom twrp and you have a /vendor partition, install the custom LineageOS 16 build from the guide.
   - With LineageOS 16 installed, reboot and verify that everything works. Then reboot back into TWRP.
   - In TWRP, go `Wipe` -> `Advanced Wipe` -> Select everything except `Vendor` and `USB-OTG`, then `Swipe to Wipe`.
-- Reboot into fastboot
+- Reboot into recovery
 
 ## Files
-- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-oneplus_oneplus3-api28-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-oneplus3/droidian-images/releases/tag/nightly).
+- Download the latest recovery flashable zip: [droidian-UNOFFICIAL-XXXXX-phone-oneplus-oneplus3-api28-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-oneplus3/droidian-images/releases/tag/nightly).
 
 ## Installation
-* Extract the archive
-* run the `flash_all` script
-* Boot to fastboot and let the script flash everything.
+* Boot into recovery
+* Flash the droidian .zip using the recovery's install menu or adb sideload
+* Reboot
 
 ## UBports Installer
 - Alternatively the UBports installer can also be used to install Droidian.
@@ -55,7 +55,6 @@
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
 - When powered off, plugging in a charger will power on the device. If you experience a flashing screen, reboot to solve the issue. If the phone is powered on manually or rebooted, there won't be any screen flashing.
-- Torch/Flashlight only works properly inside Waydroid
 - Camera doesn't work in Droidian or Waydroid.
 
 ## Final notes
