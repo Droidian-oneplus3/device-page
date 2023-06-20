@@ -2,22 +2,22 @@
 
 |                               	|    	 |                                  	|    	 |                      	|   	 |
 |-------------------------------	|----- |----------------------------------	|----- |----------------------	|----- |
-| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	 |  ✅  | Automatic brightness   | ✅✖️ |
-| No reboot needed for 1 week    	|  ✅	| Fingerprint reader  	             | ✖️✖️ | Waydroid		           |  ✅  |
-| Torchlight                    	|  ✅	| Boot into UI                     	 |  ✅  | GPS                 	  | ✖️✖️ |
-| Vibration                     	|  ✅ 	| Hardware video playback          	 |  ❔  | Proximity          	  |  ✅ 	|
-| Flashlight                    	|  ✖️  | Anbox patches                    	|  ✅ 	| Rotation            	 |  ✅  |
-| Photo                         	|  ✖️	 | AppArmor patches                 	|  ✅ 	| Touchscreen          	 |  ✅  |
-| Video                         	|  ✖️	 | Battery percentage               	|  ✅ 	| Earphones           	 |  ✅  |
-| Switching between cameras     	|  ✖️	 | Offline charging                 	| ✅✖️	| Loudspeaker          	 |  ✅	 |
-| Dual SIM functionality        	| ✖️✖️ | Online charging                  	|  ✅ 	| Microphone          	 |  ✅	 |
-| Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	 |  ✅  | Volume control       	|  ✅ 	|
-| Data connection               	|  ✅ 	| RTC time                         	 |  ✅  | Pin unlock           	|  ✅ 	|
-| Incoming, outgoing calls      	|  ✅ 	| Shutdown / Reboot                	 |  ✅  | ADB access          	  | ✖️✖️ |
-| MMS in, out                   	|  ❔ 	| Wireless External monitor        	 | ✖️✖️	| MTP access           	 | ✖️✖️ |
-| SMS in, out                    	|  ✅ 	| Bluetooth                        	 |  ✅  | WiFi			              |  ✅	|
-| Change audio routings          	|  ✅	| Flight mode                      	 | ✅✖️ | Hotspot		            |  ✅	|
-| Voice in calls                	|  ✅ 	| Tristate switch                    |  ✅  | Capacitive buttons     |  ✅  |
+| Manual brightnes              	|  ✅  | Battery lifetime > 24h from 100% 	|  ✅  | Automatic brightness   |  ✅  |
+| No reboot needed for 1 week    	|  ✅	 | Fingerprint reader  	              | ✖️✖️ | Waydroid		            |  ✅  |
+| Torchlight                    	|  ✅	 | Boot into UI                     	|  ✅  | GPS                 	  | ✖️✖️ |
+| Vibration                     	|  ✅  | Hardware video playback          	|  ❔  | Proximity          	  |  ✅  |
+| Flashlight                    	|  ✖️  | Anbox patches                    	|  ✅  | Rotation            	  |  ✅  |
+| Photo                         	|  ✖️	 | AppArmor patches                 	|  ✅  | Touchscreen          	|  ✅  |
+| Video                         	|  ✖️	 | Battery percentage               	|  ✅  | Earphones           	  |  ✅  |
+| Switching between cameras     	|  ✖️	 | Offline charging                 	| ✅✖️ | Loudspeaker          	|  ✅	 |
+| Dual SIM functionality        	| ✖️✖️ | Online charging                  	|  ✅  | Microphone          	  |  ✅	 |
+| Carrier info, signal strength 	|  ✅  | SD card detection and access     	|  ✅  | Volume control       	|  ✅  |
+| Data connection               	|  ✅  | RTC time                         	|  ✅  | Pin unlock           	|  ✅  |
+| Incoming, outgoing calls      	|  ✅  | Shutdown / Reboot                	|  ✅  | ADB access          	  | ✖️✖️ |
+| MMS in, out                   	|  ❔  | Wireless External monitor        	| ✖️✖️ | MTP access           	| ✖️✖️ |
+| SMS in, out                    	|  ✅  | Bluetooth                          |  ✅  | WiFi			              |  ✅	 |
+| Change audio routings          	|  ✅	 | Flight mode                      	| ✅✖️ | Hotspot		            |  ✅	 |
+| Voice in calls                	|  ✅  | Tristate switch                    |  ✅  | Capacitive buttons     |  ✅  |
 
 - **✅** *Confirmed working.*
 - **✅✖️** *Working to some extent but with issues.*
@@ -34,7 +34,7 @@
 - Reboot into recovery
 
 ## Files
-- Download the latest recovery flashable zip: [droidian-UNOFFICIAL-XXXXX-phone-oneplus-oneplus3-api28-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-oneplus3/droidian-images/releases/tag/nightly).
+- Download the latest recovery flashable zip: [droidian-OFFICIAL-phosh-phone-oneplus_oneplus3-api28-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
 
 ## Installation
 * Boot into recovery
@@ -56,6 +56,7 @@
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
 - When powered off, plugging in a charger will power on the device. If you experience a flashing screen, reboot to solve the issue. If the phone is powered on manually or rebooted, there won't be any screen flashing.
 - Camera doesn't work in Droidian or Waydroid.
+- GPU only seems to be working partially in Droidian, but in Waydroid it works perfectly.
 
 ## Final notes
 - I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
